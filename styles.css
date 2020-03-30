@@ -1,5 +1,4 @@
 body {
-	padding: 0 50px 50px 50px;
 	font-family: 'Dimboregular', sans serif;
 	background: #518ea0;
 	text-align: center;
@@ -15,14 +14,35 @@ body {
 }
 
 .container {
-	background-color:#e8e2b3;
-	max-width: 1500px;
+	width: 1500px;
 	margin: 0 auto 20px auto;
-    padding: 20px;
-    border: 6px solid #b9b388;
-    border-radius: 20px;
+	box-sizing: border-box;
 }
 
+.container-view {
+	background-color:#e8e2b3;
+	padding: 20px;
+	border: 6px solid #b9b388;
+	border-radius: 20px;
+}
+
+.items-pannel {
+	text-align: justify;
+}
+
+.items-pannel:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.container-item {
+	display: inline-block;
+	width: 29%;
+}
+.block{
+	
+}
 .rull_box {
 	font-size: 26px;
 	height: 200px;
@@ -47,11 +67,6 @@ body {
 	text-indent: -999px;
 }
 
-.block { 
-display: inline-block;
-width: 20%;
-   }
-
 .chest-input:checked + .chest-text {
 	background: url("./images/chest2.png") 0 0 no-repeat; 
 }
@@ -68,7 +83,7 @@ h1{
     text-shadow: 6px 1px 0px rgba(123,10,65,0.55);
    }  
    
-::-webkit-scrollbar {
+   ::-webkit-scrollbar {
     width: 15px;
 }
  

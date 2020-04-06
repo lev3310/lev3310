@@ -21,7 +21,7 @@ body {
 
 .container-view {
 	background-color:#e8e2b3;
-	padding: 20px;
+	padding: 10px;
 	border: 6px solid #b9b388;
 	border-radius: 20px;
 }
@@ -38,7 +38,7 @@ body {
 
 .container-item {
 	display: inline-block;
-	width: 29%;
+	width: 240;
 }
 .block{
 	
@@ -62,9 +62,10 @@ body {
 .chest-text {
 	background: url("./images/chest1.png") 1px 0 no-repeat; 
 	display: inline-block;
-	width: 334px;
-    height: 242px;
+	width: 240px;
+    height: 175px;
 	text-indent: -999px;
+	background-size: cover;
 }
 
 .chest-input:checked + .chest-text {

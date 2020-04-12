@@ -1,3 +1,5 @@
-$('h1').click(function(){
-  alert('Вы нажали на элемент "foo"');
-});
+$(document).ready(function () {
+    $('#switch-player-btn').on('click', function(){
+        $('#switch-player').html() == "1" ? $('#switch-player').html('2') : $('#switch-player').html('1');
+    });
+})

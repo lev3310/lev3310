@@ -62,18 +62,24 @@ body {
 .chest-text {
 	background: url("./images/chest1.png") 1px 0 no-repeat; 
 	display: inline-block;
-	width: 240px;
-    height: 175px;
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 	text-indent: -999px;
-	background-size: cover;
 }
 
 .chest-input:checked + .chest-text {
-	background: url("./images/chest2.png") 0 0 no-repeat; 
+	background: url("./images/chest2.png") 0 0 no-repeat;
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 }
 
 .chest-text:hover {
 	background: url("./images/key.png") 0 0 no-repeat;
+	width: 140px;
+    height: 140px;
+    background-size: contain;
 }
 
 h1{

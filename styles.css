@@ -38,7 +38,7 @@ body {
 
 .container-item {
 	display: inline-block;
-	width: 240;
+	width: 240px;
 }
 .block{
 	
@@ -54,9 +54,14 @@ body {
     display: inline-block;
 }
 
-.chest-input {
-	opacity: 0;
-    position: absolute;
+.chest-input:disabled:hover  + .chest-text {
+    background: url("./images/chest1.png") 1px 0 no-repeat; 
+    background-size: contain;
+}
+
+.chest-input:disabled + .chest-text {
+    opacity: 0.5;
+    cursor: default;
 }
 
 .chest-text {
@@ -66,6 +71,11 @@ body {
     height: 140px;
     background-size: contain;
 	text-indent: -999px;
+}
+
+.chest-input:disabled + .chest-text {
+    opacity: 0.5;
+    cursor: default;
 }
 
 .chest-input:checked + .chest-text {
@@ -80,6 +90,14 @@ body {
 	width: 140px;
     height: 140px;
     background-size: contain;
+}
+
+.figures {
+	font-family: sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin: 25px 15px;
+    color: #6500c1;
 }
 
 h1{

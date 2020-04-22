@@ -54,9 +54,16 @@ body {
     display: inline-block;
 }
 
+.chest-input {
+	opacity: 0;
+	position: absolute;
+}
+
 .chest-input:disabled:hover  + .chest-text {
-    background: url("./images/chest1.png") 1px 0 no-repeat; 
+    background: url("./images/bashe_spites.png") 1px 0 no-repeat; 
     background-size: contain;
+	background-position: bottom center;
+	background-size: 130%;
 }
 
 .chest-input:disabled + .chest-text {
@@ -65,31 +72,29 @@ body {
 }
 
 .chest-text {
-	background: url("./images/chest1.png") 1px 0 no-repeat; 
+	background: url("./images/bashe_spites.png") 1px 0 no-repeat; 
 	display: inline-block;
 	width: 140px;
     height: 140px;
-    background-size: contain;
 	text-indent: -999px;
-}
-
-.chest-input:disabled + .chest-text {
-    opacity: 0.5;
-    cursor: default;
+	background-position: top center;
+	background-size: 130%;
 }
 
 .chest-input:checked + .chest-text {
-	background: url("./images/chest2.png") 0 0 no-repeat;
+	background: url("./images/bashe_spites.png") 0 0 no-repeat;
 	width: 140px;
     height: 140px;
-    background-size: contain;
+    background-size: 130%;
+    background-position: center center;
 }
 
 .chest-text:hover {
-	background: url("./images/key.png") 0 0 no-repeat;
+	background: url("./images/bashe_spites.png") 0 0 no-repeat;
 	width: 140px;
     height: 140px;
-    background-size: contain;
+    background-position: bottom center;
+	background-size: 130%;
 }
 
 .figures {

@@ -26,7 +26,7 @@ $('#switch-player-btn').on('click',function(){
 		player = 2;
 		state = "state_1_js";
 	}
-	$(".chest-input").not(":checked").not(".state_1_js").not(."state_2_js").slice(0.4).removeAttr("disabled");
+	$(".chest-input").not(":checked").not("state_1_js").not("state_2_js").slice(0.4).removeAttr("disabled");
 });
 
 $('.chest-input').change(function() {
@@ -35,5 +35,5 @@ $('.chest-input').change(function() {
 	}
 	else {
 		$(this).removeClass(state);
-	});
+	};
 });

@@ -15,12 +15,12 @@
 $(document).ready(function () {
 	var player = 1;
 	var state = "state_1_js";
-$(#'switch-player-btn').on('click',function(){
+$('#switch-player-btn').on('click',function(){
 	$("chest-input").each(function(i,element){
 		$(element).attr('disabled', 'disabled');
 	});
 	var switchPlayer = $('switch-player');
-	if (switchPlayer).html() == "1") {
+	if (switchPlayer.html() == "1") {
 		$(switchPlayer).html('2');
 		$(this).toggleClass("state_1_js").toggleClass(state_2_js);
 		player = 2;

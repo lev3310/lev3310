@@ -37,3 +37,4 @@ $('.chest-input').change(function() {
 		$(this).removeClass(state);
 	};
 });
+});

@@ -109,6 +109,15 @@ body {
     color: #6500c1;
 }
 
+.text {
+	text-decoration: none;
+	font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 15px;
+    color: #6500c1;
+}
+
 h1{
 	background: #518ea0; 
     color: #e8e2b3; 
